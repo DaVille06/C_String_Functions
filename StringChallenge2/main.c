@@ -3,19 +3,18 @@
 
 #pragma warning(disable : 4996)
 
-// read input from keyboard
-// use strlen to reverse
 void stringReverse();
+void stringSort();
 
 int main()
 {
 	stringReverse();
+	printf("\n\n");
 	return 0;
 }
 
 void stringReverse()
 {
-	// would like a way to make this an unknown length instead of hard coded
 	char userInput[100];
 	printf("Please enter a string that you would like to reverse:\n");
 	// this says grab everything until we hit a new line character
@@ -29,4 +28,9 @@ void stringReverse()
 	{
 		printf("%c", userInput[i]);
 	}
+}
+
+void stringSort()
+{
+
 }
