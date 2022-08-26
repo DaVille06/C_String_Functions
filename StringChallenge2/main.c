@@ -32,5 +32,10 @@ void stringReverse()
 
 void stringSort()
 {
-
+	/*
+	* Input number of string: 3
+	* Input the 3 strings: zero one two
+	* Output: one two three
+	* // note this is happening by alpha order
+	*/
 }
